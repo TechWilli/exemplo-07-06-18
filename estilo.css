@@ -1,3 +1,107 @@
 body {
-    margin: 0;
+    max-width: 600px;
+    margin: 70px auto 50px;
+    font-family: sans-serif;
+    line-height: 1.5;
 }
+
+h2 {
+    border-top: solid 5px rgb(238, 185, 10);
+    padding-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 span {
+    color: red;
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 460px;
+
+}
+
+p {
+    color: navy;
+}
+
+#primeiro {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.maior {
+    font-size: 25px;
+}
+
+[nome=roxo] {
+    color: purple;
+    border: dotted 2px;
+
+}
+
+footer {
+    margin-bottom: 100px;
+    padding-left: 150px;
+}
+
+ol {
+    margin-bottom: 100px;
+    list-style-type: none;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    background-color:rgb(92, 12, 241);
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-left: 250px;
+
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:visited{
+    color:rgb(229, 255, 0);
+
+}
+
+li a:hover {
+    color: rgb(12, 224, 41);
+}
+
+.final{
+    margin: auto 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.final:nth-child(1){
+    background-color: rgb(111, 0, 255);
+}
+
+.final:nth-child(2){
+    background-color: rgba(172, 142, 211, 0.473);
+}
+
+.final:nth-child(3){
+    background-color: rgb(164, 164, 209);
+}
+
+.final:nth-child(4){
+    background-color: rgb(109, 94, 129);
+}
+
+.final:nth-child(5){
+    background-color: rgb(52, 30, 82);
+}
+
+
+
+
